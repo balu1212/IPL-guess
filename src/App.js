@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <context.Provider value={{count,setCount}}>
-      <BrowserRouter>
+      
        <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/1' element={<Componet1/>}/>
@@ -22,7 +22,7 @@ function App() {
         <Route path='/4' element={<Component4/>}/>
         <Route path="/result" element={<Result/>}/>
        </Routes>
-      </BrowserRouter>
+     
       </context.Provider>
     </div>
   );
