@@ -1,0 +1,1 @@
+export const data=['LSG','GT','KKR','KXIP','DC','RR','MI','RCB','SRH','CSK'];
